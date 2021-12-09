@@ -131,6 +131,7 @@ p{
 #main-container h3{
     font-size: 50px;
     font-style: italic;
+    color: var(--color-extra);
 }
 
 #main-container strong{
@@ -495,4 +496,102 @@ p{
         padding: 5px;
     }
 
+}
+
+/* Animations */
+
+.fade-up-primary{
+    filter: opacity(0%);
+    position: relative;
+    animation-name: fade-up-primary;
+    animation-duration: 1.5s;
+    animation-delay: 0.5s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+}
+
+.fade-up-secondary{
+    filter: opacity(0%);
+    position: relative;
+    animation-name: fade-up-secondary;
+    animation-duration: 1.5s;
+    animation-delay: 0.5s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+}
+
+.fade-up-extra{
+    filter: opacity(0%);
+    position: relative;
+    animation-name: fade-up-extra;
+    animation-duration: 1.5s;
+    animation-delay: 0.75s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+}
+
+.fade-in{
+    filter: opacity(0%);
+    animation-name: fade-in;
+    animation-duration: 1.5s;
+    animation-delay: 1.5s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+}
+
+.fade-in-nav{
+    filter: opacity(0%);
+    animation-name: fade-in;
+    animation-duration: 1.5s;
+    animation-delay: 2s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes fade-in{
+    0% {
+        filter: opacity(0%);
+    }
+    100% {
+        filter: opacity(100%);
+    }
+}
+
+@keyframes fade-up-primary{
+    0% {
+        top: 20px; 
+        filter: opacity(0%);
+    }
+    100% {
+        top: 0px;
+        filter: opacity(100%);
+    }
+}
+
+@keyframes fade-up-secondary{
+    0% {
+        top: 20px; 
+        filter: opacity(0%);
+    }
+    100% {
+        top: 0px;
+        filter: opacity(100%);
+    }
+}
+
+@keyframes fade-up-extra{
+    0% {
+        top: 20px; 
+        filter: opacity(0%);
+    }
+    100% {
+        top: 0px;
+        filter: opacity(100%);
+    }
 }
