@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    --color-primary: #fafafa;
+    --color-secondary: #212121;
+    --color-extra: #00E676;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    background-color: var(--color-primary);
+    background-image: url('https://images.unsplash.com/photo-1592326871020-04f58c1a52f3?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&dl=ishan-seefromthesky-66Tu10CxYY0-unsplash.jpg');
+    background-size: cover;
+    background-position-y: -1000px;
+    color: var(--color-secondary);
+    font-family: 'Poppins';
+    height: 100%;
+    line-height: 1.4;
+    overflow-x: hidden;
+}
+
+a{
+    color: var(--color-secondary);
+}
+
+ul{
+    list-style: none;
+}
+
+p{
+    line-height: 1.7;
+    margin: 5px 0;
+}
+
+#background-image{
+    background: rgb(250, 250, 250, 0.85);
+}
+
+/* Navbar */
+
+#navbar{
+    height: auto;
+    width: 100%;
+    padding: 20px;
+    background: transparent;
+}
+
+#navbar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+#navbar ul{
+    display: flex;
+    align-items: center;
+}
+
+#navbar li{
+    margin: 0 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#navbar a{
+    color: var(--color-secondary);
+    text-decoration: none;
+}
+
+#navbar a:hover{
+    color: var(--color-extra);
+}
+
+#navbar-logo{
+    font-size: 50px;
+    font-style: italic;
+    font-family: 900;
+}
+
+#navbar-logo a:hover{
+    color: var(--color-secondary);
+}
+
+/* Welcome Section */
+
+#main{
+    
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    min-height: 575px;
+    position: relative;
+}
+
+#main-container{
+    margin: auto;
+    padding-top: 125px;
+}
+
+#main-container h2{
+    font-size: 60px;
+}
+
+#main-container h3{
+    font-size: 50px;
+    font-style: italic;
+}
+
+#main-container strong{
+    color: var(--color-extra);
+}
+
+#main-container button{
+    background-color: var(--color-secondary);
+    border-color: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 25px 0;
+}
+
+#main-container button:hover{
+    background-color: var(--color-extra);
+    border-color: var(--color-extra);
+    color: var(--color-secondary);
+}
+
+#main-container a{
+    color: var(--color-primary);
+    font-family: 'Poppins', 'sans-serif';
+    text-decoration: none;
+}
+
+#main-container a:hover{
+    color: var(--color-secondary);
+}
+
+/* Quote Section */
+
+#quote{
+    background-image: url('https://images.unsplash.com/photo-1596193433486-02333accdc13?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&dl=faseeh-fawaz-Dt1vFAPZmUI-unsplash.jpg');
+    background-position: center center;
+    background-size: 100%;
+    filter: grayscale(100%);
+}
+
+#quote-container{
+    background-color: #2121216e;
+    align-items: center;
+    color: var(--color-primary);
+    text-align: center;
+    width: 100%;
+}
+
+#quote-container p{
+    margin: auto;
+    font-size: 30px;
+    max-width: 800px;
+    padding: 25px 0;
+    font-style: italic;
+}
+
+/* Announcements Section */
+
+#announcements{
+    background-color: var(--color-secondary);
+    color: var(--color-primary);
+    align-items: center;
+    padding: 40px;
+    text-align: center;
+}
+
+#announcements-container{
+    margin: 0 auto;
+    min-height: 450px;
+    width: 100%;
+    max-width: 800px;
+}
+
+#announcements h2{
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+#announcements h3{
+    font-size: 25px;
+    color: var(--color-extra);
+
+}
+
+#announcements small{
+    filter: opacity(50%);
+}
+
+#announcements p{
+    text-align: left;
+    padding-top: 10px;
+}
+
+/* Schedule Section */
+
+#schedule{
+    background: rgb(250, 250, 250, 0.9);
+}
+
+#schedule-container{
+    padding: 40px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#schedule h2{
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.row{
+    display: flex;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+#top-row{
+    display: flex;
+    margin: 0 auto;
+}
+
+#bottom-row{
+    display: flex;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+
+.box{
+    padding: 40px;
+}
+
+.time{
+    font-size: 40px;
+}
+
+.prayer{
+    font-size: 25px;
+}
+
+.disclaimer{
+    filter: opacity(50%);
+}
+
+/* Location Section */
+#location{
+    background-color: var(--color-secondary);
+    color: var(--color-primary);
+    margin: 0 auto;
+    align-items: center;
+}
+
+#location-container{
+    max-width: 1000px;
+    margin: 0 auto;
+    align-content: center;
+    text-align: center;
+    padding: 40px;
+}
+
+#location-container h2{
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+#location-container h3{
+    color: var(--color-extra);
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+#location iframe{
+    filter: grayscale(100%);
+}
+
+/* Contact Section */
+
+#contact{
+    background-color: var(--color-primary);
+}
+
+#contact-container{
+    margin: 0 auto;
+    padding: 40px;
+    max-width: 800px;
+    text-align: center;
+}
+
+#contact h2{
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+#contact h3{
+    font-size: 25px;
+    padding-bottom: 5px;
+}
+
+#number{
+    color: var(--color-extra);
+}
+
+/* Footer Section */
+
+#main-footer{
+    background-color: var(--color-secondary);
+    color: var(--color-primary);
+}
+
+#footer-container{
+    align-items: center;
+    width: 100%;
+    padding: 5px 0;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
