@@ -435,6 +435,18 @@ p{
         background-color: var(--color-primary);
     }
 
+    .box{
+        padding: 20px;
+    }
+
+    .prayer{
+        font-size: 20px;
+    }
+
+    .time{
+        font-size: 30px;
+    }
+
     .row, #top-row, #bottom-row{
         display: block;
     }
