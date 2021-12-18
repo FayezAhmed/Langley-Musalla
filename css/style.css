@@ -476,6 +476,14 @@ p{
     #location iframe{
         width: 100%;
     }
+
+    #announcements small{
+        font-size: 10px;
+    }
+
+    #schedule small{
+        font-size: 10px;
+    }
 }
 
 @media(max-width: 700px){
