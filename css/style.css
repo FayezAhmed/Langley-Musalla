@@ -469,6 +469,15 @@ p{
         width: 80%;
     }
 
+    #schedule{
+        background-color: var(--color-primary);
+    }
+
+    #main-footer{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
     #main-footer small{
         font-size: 10px;
     }
@@ -601,6 +610,20 @@ p{
 
     #main h3{
         font-size: 20px;
+    }
+}
+
+@media(max-width: 400px){
+    #navbar-logo{
+        font-size: 25px;
+    }
+
+    #main h2{
+        font-size: 30px;
+    }
+
+    #main h3{
+        font-size: 15px;
     }
 }
 
