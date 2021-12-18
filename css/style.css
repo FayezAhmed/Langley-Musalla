@@ -402,82 +402,15 @@ p{
 
 /* Responsivity */
 
-@media(max-width:1000px){
-    html, body{
-        background-position-y: 0;
-    } 
-
-    #main-container{
-        padding-top: 175px;
-    }
-
-    #main h2{
-        font-size: 35px;
-    }
-
-    #main h3{
-        font-size: 20px;
-        padding-bottom: 20px;
-    }
-
-    #quote p{
-        margin: 0 auto;
-        font-size: 22px;
-        width: 80%;
-    }
-
-    #announcements h2, #schedule h2, #location h2, #contact h2{
-        font-size: 35px;
-    }
-
-    #announcements h3{
-        font-size: 20px;
-    }
-
-    #schedule{
-        background-color: var(--color-primary);
-    }
-
-    .box{
-        padding: 20px;
-    }
-
-    .prayer{
-        font-size: 20px;
-    }
-
-    .time{
-        font-size: 30px;
-    }
-
-    .row, #top-row, #bottom-row{
-        display: block;
-    }
-
-    #location h3{
-        font-size: 20px;
-    }
-
-    #location iframe{
-        width: 100%;
-    }
-}
-
-@media(max-width: 400px){
-    #navbar-logo h1{
-        font-size: 32px;
-    }
-
-    #main h2{
-        font-size: 20px;
-    }
-
-    #main h3{
-        font-size: 15px;
-    }
-}
-
 @media(max-width: 1400px){
+    html, body{
+        background-position-y: -550px;
+    }
+
+    #navbar{
+        padding: 20px 0px;
+    }
+
     #navbar-nav{
         display: none;
     }
@@ -486,18 +419,181 @@ p{
         margin: 0 auto;
         display: block;
         text-align: center;
+        font-size: 50px;
+    }
+
+    #main h2{
+        font-size: 55px;
+    }
+
+    #main h3{
+        font-size: 40px;
+    }
+}
+
+@media(max-width: 950px){
+    html, body{
+        background-position-y: -250px;
+    }
+
+    .row, #top-row, #bottom-row{
+        display: block;
+    }
+
+    .time{
+        font-size: 40px;
+    }
+
+    .prayer {
+        font-size: 20px;
+    }
+
+    .box{
+        padding: 20px;
+    }
+
+    #navbar-logo{
+        font-size: 45px;
+    }
+
+    #main h2{
+        font-size: 50px;
+    }
+
+    #main h3{
+        font-size: 35px;
+    }
+
+    #quote p{
+        font-size: 25px;
+        width: 80%;
+    }
+
+    #main-footer small{
+        font-size: 10px;
+    }
+
+    #location iframe{
+        width: 100%;
+    }
+}
+
+@media(max-width: 700px){
+    html, body{
+        background-position-y: -100px;
+    }
+
+    #navbar-logo{
+        font-size: 40px;
+    }
+
+    #main h2{
+        font-size: 45px;
+    }
+
+    #main h3{
         font-size: 30px;
     }
 
-    #quote{
-        background-size: cover;
+    #quote p{
+        font-size: 20px;
     }
 
-    #copyright, #credit{
-        font-size: 8px;
-        padding: 5px;
+    #announcements h2{
+        font-size: 35px;
+    }
+    
+    #schedule h2{
+        font-size: 35px;
+    }
+    
+    #location h2{
+        font-size: 35px;
     }
 
+    #contact h2{
+        font-size: 35px;
+    }
+
+    #announcements h3{
+        font-size: 20px;
+    }
+
+    #location h3{
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 600px){
+    html, body{
+        background-position-y: 0px;
+    }
+
+    ::-webkit-scrollbar{
+        display: none;
+    }
+
+    #navbar-logo{
+        font-size: 35px;
+    }
+
+    #main h2{
+        font-size: 40px;
+    }
+
+    #main h3{
+        font-size: 25px;
+    }
+
+    #announcements h2{
+        font-size: 30px;
+    }
+    
+    #schedule h2{
+        font-size: 30px;
+    }
+    
+    #location h2{
+        font-size: 30px;
+    }
+
+    #contact h2{
+        font-size: 30px;
+    }
+
+    #announcements h3{
+        font-size: 18px;
+    }
+
+    #location h3{
+        font-size: 18px;
+    }
+}
+
+@media(max-width: 500px){
+    html, body{
+        background-position-y: 0px;
+    }
+
+    .time{
+        font-size: 35px;
+    }
+
+    .prayer {
+        font-size: 15px;
+    }
+
+    #navbar-logo{
+        font-size: 30px;
+    }
+
+    #main h2{
+        font-size: 35px;
+    }
+
+    #main h3{
+        font-size: 20px;
+    }
 }
 
 /* Animation Properties */
