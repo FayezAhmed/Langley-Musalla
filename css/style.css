@@ -306,6 +306,7 @@ p{
     width: 800px;
     height: 350px;
     border: 0;
+    padding-bottom: 30px;
 }
 
 /* Contact Section */
@@ -449,11 +450,15 @@ p{
     }
 
     .box{
-        padding: 20px;
+        padding: 10px;
     }
 
     #navbar-logo{
         font-size: 45px;
+    }
+
+    #main{
+        min-height: 500px;
     }
 
     #main h2{
@@ -474,8 +479,8 @@ p{
     }
 
     #main-footer{
-        padding-left: 15px;
-        padding-right: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
     #main-footer small{
@@ -585,6 +590,10 @@ p{
     #location h3{
         font-size: 18px;
     }
+
+    #main-footer small{
+        font-size: 8px;
+    }
 }
 
 @media(max-width: 500px){
@@ -623,6 +632,10 @@ p{
     }
 
     #main h3{
+        font-size: 15px;
+    }
+
+    #location h3{
         font-size: 15px;
     }
 }
