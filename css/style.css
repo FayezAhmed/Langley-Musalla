@@ -353,10 +353,11 @@ p {
 textarea {
   width: 100%;
   max-width: 500px;
-  border-radius: 5px;
+  border-radius: 15px;
   margin: 5px auto;
-  border-width: 1px;
+  border-width: 3px;
   padding: 2px 10px;
+  font-family: "Poppins";
 }
 
 #contact-form textarea {
