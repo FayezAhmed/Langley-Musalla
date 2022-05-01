@@ -220,8 +220,10 @@ p {
 }
 
 #announcements p {
-  text-align: left;
+  margin: 0 auto;
+  text-align: justify;
   padding-top: 10px;
+  max-width: 500px;
 }
 
 /* Schedule Section */
